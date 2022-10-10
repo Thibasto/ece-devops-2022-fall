@@ -36,11 +36,11 @@ describe('User', () => {
       })
     })
 
-    // it('avoid creating an existing user', (done)=> {
-    //   // TODO create this test
-    //   // Warning: the user already exists
-    //   done()
-    // })
+    it('avoid creating an existing user', (done)=> {
+      // TODO create this test
+      // Warning: the user already exists
+      done()
+    })
   })
 
   // TODO Create test for the get method
